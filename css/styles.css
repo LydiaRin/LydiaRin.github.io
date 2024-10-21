@@ -117,9 +117,9 @@ nav ul li a:hover::after{
 }
 
 .text {
-    width: 100%; /* Ensures each text container uses most of the width */
-    height: auto; /* Allows height to adjust based on content */
-    margin: 30px auto; /* Adds space between each container and centers it */
+    width: 100%; 
+    height: auto; 
+    margin: 30px auto; 
     background-color: rgba(255, 255, 255, 0.712);
     color: rgb(0, 0, 0);
     padding: 20px;
