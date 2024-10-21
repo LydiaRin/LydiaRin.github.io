@@ -244,6 +244,33 @@ nav ul li a:hover::after{
     flex-direction: column;
     justify-content: 50%end;  
 }
+#logo .content{
+    flex: 1;
+    padding-left: 20px; 
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: 50%end; 
+}
+#logo img {
+    width: auto; 
+    height: auto;
+    max-width: 200px;
+    max-height: 200px; 
+    margin-right: 20px;
+    align-items:center;
+}
+#logo .row{
+    display: flex;
+    height: 250px;
+    max-width: 800px;
+    width: 100%; 
+    margin: 50px auto;
+    background-color:rgba(0, 0, 0, 0.712);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    box-sizing: border-box;
+}
 .row h1{
     font-size: 30px;
     font-weight: bold;
