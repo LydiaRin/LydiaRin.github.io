@@ -129,7 +129,8 @@ homepage*/
 }
 
 /************************************************************************************************
-in common*/
+mission*/
+
 .title h1{
     font-family: cursive;
     font-size:30px;
@@ -146,6 +147,7 @@ in common*/
     margin-right: 25%;
     position: relative;
 }
+
 .cards{
     width: 90%;
     display: flex;
@@ -187,11 +189,11 @@ in common*/
     font-family: cursive;
 }
 
-.front{
+.card-content .card .front h1 {
     color: #ffffff;
-    font-size: 20px;    
+    font-size: 20px;
 }
-.back{
+.card-content .card .back p{
     color: #ffffff;
     font-size:15px;
     line-height: 1cm;
@@ -208,19 +210,6 @@ in common*/
         margin: 25px auto;
     }
 }
-.card a {
-    display: block; 
-    text-decoration: none; 
-    color: none; 
-    box-shadow: none;
-}
-
-.card {
-    cursor: pointer; /* Change cursor to pointer to indicate link */
-}
-
-/************************************************************************************************
-mission*/
 
 .mission-section{
     width: 90%;
