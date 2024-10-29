@@ -149,13 +149,13 @@ mission*/
 }
 
 .cards{
-    width: 90%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     margin: 20px auto;
 }
 .card-content{
-    width:calc(33.33% - 20px);
+    width:calc(33.33% - 10px);
     height: 350px;
     justify-content: center;
 }
@@ -189,14 +189,14 @@ mission*/
     font-family: cursive;
 }
 
-.card-content .card .front h1 {
+.front h1 {
     color: #ffffff;
     font-size: 20px;
 }
-.card-content .card .back p{
+.back p{
     color: #ffffff;
     font-size:15px;
-    line-height: 1cm;
+    line-height: 0.8cm;
     transform: rotateY(180deg);
 }
  
