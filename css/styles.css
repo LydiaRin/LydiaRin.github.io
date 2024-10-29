@@ -149,7 +149,7 @@ mission*/
 }
 
 .cards{
-    width: 95%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     margin: 20px auto;
@@ -166,7 +166,6 @@ mission*/
     position:relative;
     transition: transform 1s ease;
     transform-style: preserve-3d;
-    perspective: 500px;
 }
 
 .card-content:hover > .card{
@@ -189,11 +188,11 @@ mission*/
     font-family: cursive;
 }
 
-.front h1 {
+.front{
     color: #ffffff;
     font-size: 20px;
 }
-.back p{
+.back{
     color: #ffffff;
     font-size:15px;
     line-height: 0.8cm;
