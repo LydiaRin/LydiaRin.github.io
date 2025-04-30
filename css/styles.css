@@ -12,7 +12,7 @@ html, body {
 .container_homepage {
     width: 100%;
     min-height: 100vh; 
-    background-image: linear-gradient(rgba(0,0,0,0.3), transparent), url(homepage.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3), transparent), url(homepage.png);
     background-size: cover;
     background-position: center;
     padding: 0 8%;
